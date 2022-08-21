@@ -1,12 +1,12 @@
-import express from 'express'
-import createError from 'http-errors'
-import mongoose from 'mongoose'
-import path from 'path'
-import env from 'dotenv'
-import logger from 'morgan'
-import session from 'express-session'
-import MongoStore from 'connect-mongo'
-import passport from 'passport'
+const express = require('express')
+const createError = require('http-errors')
+const mongoose = require('mongoose')
+const path = require('path')
+const env = require('dotenv')
+const logger = require('morgan')
+const session = require('express-session')
+const MongoStore = require('connect-mongo')
+const passport = require('passport')
 
 const app = express()
 

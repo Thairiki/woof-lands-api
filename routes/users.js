@@ -1,4 +1,4 @@
-import express from 'express'
+const express = require('express')
 
 const router = express.Router()
 const service = require('./../services/users')
@@ -12,4 +12,4 @@ router.get('/authtest', ensureAuth, (req, res) => {
   res.send('parabains')
 })
 
-export default router
+module.exports = router

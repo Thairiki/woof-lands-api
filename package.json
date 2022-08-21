@@ -8,7 +8,10 @@
     "lint": "eslint ./bin/www",
     "dev": "nodemon ./bin/www"
   },
-  "keywords": ["woof-lands", "rpg"],
+  "keywords": [
+    "woof-lands",
+    "rpg"
+  ],
   "author": {
     "name": "Thairiki Amonrrá",
     "email": "thairiki2012@gmail.com"
